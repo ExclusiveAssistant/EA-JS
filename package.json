@@ -1,0 +1,42 @@
+{
+  "name": "discord.js-v14-bot-boilerplate",
+  "version": "0.0.0",
+  "description": "TheHellTower",
+  "main": "src/Main.js",
+  "scripts": {
+    "start": "node src/Main.js",
+    "start:shard": "node Sharder.js",
+    "emergency": "(if exist \"node_modules\" rd /s /q \"node_modules\") && npm i && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate.git"
+  },
+  "keywords": [
+    "TheHellTower",
+    "Discord",
+    "Bot",
+    "Boilerplate",
+    "V14"
+  ],
+  "author": {
+    "name": "TheHellTower",
+    "email": "thehelltower@tuta.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/TheHellTower/Discord.JS-v14-Bot-Boilerplate#readme",
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "glob": "^7.2.0",
+    "i18next": "^22.5.1",
+    "i18next-node-fs-backend": "^2.1.3",
+    "mongoose": "^7.2.1"
+  }
+}
